@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    //Menu
+    //List
+    <string name="menu_sample">Insert sample product</string>
+    <string name="menu_delete_list">Delete all entries</string>
+    //Details
+    <string name="menu_delete_details">Delete this product</string>
+    <string name="menu_save">Save</string>
+
+    <string name="empty_view">Add new product to Inventory by pressing the plus button
+        or insert a sample from the menu.</string>
+
+    //Details layout
+    <string name="quantity_view">Available qty.</string>
+    <string name="supplier_view">Supplier - contact details:</string>
+    <string name="button_order">Order more</string>
+    <string name="image_info">*insert image</string>
+
+    <string name="details_activity_title_new_product">Add a Product</string>
+    <string name="details_activity_title_edit_product">Edit Product</string>
+    <string name="details_insert_product_failed">Error with saving the product</string>
+    <string name="details_insert_product_successful">Product saved</string>
+    <string name="details_update_product_failed">Error with updating product</string>
+    <string name="details_update_product_successful">Product updated</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="details_delete_product_failed">Error with deleting product</string>
+    <string name="details_delete_product_successful">Product deleted</string>
+
+    //Hints
+    <string name="product_hint">Product\'s name</string>
+    <string name="price_hint">Price ..</string>
+    <string name="supplier_name_hint">Company\/person\'s name</string>
+    <string name="email_address">E-mail address</string>
+</resources>
