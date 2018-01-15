@@ -1,7 +1,9 @@
 # InventoryApp
 
-The app allows the user to store business product related data as an inventory items 
-stored in a list on their smartphone
+The app allows the user to store business product related data as an inventory items  
+
+stored in a list on their smartphone. Product's details include price, quantity, image and more  
+
 ![alt text](https://github.com/skorudzhiev/InventoryApp/blob/master/InventoryApp%20-%20Nexus_5X_API_24_5554.png)
 
 ## General Usage Notes
