@@ -36,24 +36,19 @@ defaultConfig {
 * Cursor adapter populate and track position of items in the list
 * Content [Encapsulation](https://www.tutorialspoint.com/java/java_encapsulation.htm) through the implementation of Content Provider
 * App content is generated and maintained solely by the user
+* Intent to either a phone app or an email app to contact the supplier using the information stored in the database
 * Input validation
   * empty product information is not accepted upon saving a product into the DB (Toast message prompts the user for an input)
   ```java  
-  String imageString = "";
-        if (chosenImage != null) {
-            imageString = chosenImage.toString();
-        }
+String imageString = "";
+     if (chosenImage != null) {
+          imageString = chosenImage.toString();
+     }
 
-        if (TextUtils.isEmpty(nameString) || TextUtils.isEmpty(priceString) ||
-                TextUtils.isEmpty(quantityString) || chosenImage == null &&
-                TextUtils.isEmpty(suppNameString) && TextUtils.isEmpty(emailString) && currentUri == null) {
-            Toast.makeText(getBaseContext(), R.string.toast_missing_info, Toast.LENGTH_LONG).show();
-            return;
-        }
- ```
- 
-* Intent to either a phone app or an email app to contact the supplier using the information stored in the database
-
-#### Project Limitations
-*Initial intent of this project was to create the app only using raw java code using the necessary classes provided by the Android framework;
-therefore, the use of external libraries was not permitted*
+      if (TextUtils.isEmpty(nameString) || TextUtils.isEmpty(priceString) ||
+             TextUtils.isEmpty(quantityString) || chosenImage == null &&
+             TextUtils.isEmpty(suppNameString) && TextUtils.isEmpty(emailString) && currentUri == null) {
+         Toast.makeText(getBaseContext(), R.string.toast_missing_info, Toast.LENGTH_LONG).show();
+         return;
+     }
+```
