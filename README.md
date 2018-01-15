@@ -39,7 +39,7 @@ defaultConfig {
 * Intent to either a phone app or an email app to contact the supplier using the information stored in the database
 * Input validation
   * empty product information is not accepted upon saving a product into the DB (Toast message prompts the user for an input)
-  ```java  
+```java  
 String imageString = "";
      if (chosenImage != null) {
           imageString = chosenImage.toString();
@@ -52,3 +52,7 @@ String imageString = "";
          return;
      }
 ```
+
+#### Project Limitations
+*Initial intent of this project was to create the app only using raw java code using the necessary classes provided by the Android framework;
+therefore, the use of external libraries was not permitted*
