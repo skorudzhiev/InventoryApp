@@ -1,5 +1,5 @@
 # InventoryApp
-**Version 1.0 2016/07/01**
+**Version 1.0 2017/07/01**
 
 The app allows the user to store business product related data as an inventory items  
 
